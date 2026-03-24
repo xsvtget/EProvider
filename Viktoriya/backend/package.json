@@ -1,0 +1,21 @@
+{
+  "name": "eprovider-api",
+  "version": "1.0.0",
+  "description": "EProvider Competence & Risk API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "migrate": "node scripts/migrateJSON.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "mysql2": "^3.6.0",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

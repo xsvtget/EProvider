@@ -1,0 +1,1448 @@
+{
+  "db": {
+    "employees": [
+      {
+        "id": "19",
+        "name": "Alexander Fløtre Waaland",
+        "role": "",
+        "dept": "Infra",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "8",
+        "name": "Andreas Thorsen",
+        "role": "",
+        "dept": "Infra",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "4",
+        "name": "Eskil N. Jakobsen",
+        "role": "",
+        "dept": "Sales & Marketing",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "3",
+        "name": "Espen Lorentzen",
+        "role": "",
+        "dept": "OPS",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "11",
+        "name": "Geir Inge Rønning",
+        "role": "",
+        "dept": "Infra",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "12",
+        "name": "Joakim Johnsen",
+        "role": "",
+        "dept": "Customer Service",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "10",
+        "name": "Kateryna Dohnalova",
+        "role": "",
+        "dept": "Administration",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "5",
+        "name": "Marcus Akre",
+        "role": "",
+        "dept": "",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "15",
+        "name": "Odd Andre Molaug Oddsen",
+        "role": "",
+        "dept": "OPS",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "14",
+        "name": "Per-Allan Røsand",
+        "role": "",
+        "dept": "Administration",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "9",
+        "name": "Reidar Hellerslien Jørgensen",
+        "role": "",
+        "dept": "Sales & Marketing",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "18",
+        "name": "Sven Odfjell Rusdal",
+        "role": "",
+        "dept": "",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "2",
+        "name": "Thomas Hemnes Alveskjær",
+        "role": "COO",
+        "dept": "OPS",
+        "loc": "EP-GV19",
+        "avl": 70
+      },
+      {
+        "id": "6",
+        "name": "Tobias Ege Hoppestad",
+        "role": "",
+        "dept": "Customer Service",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "13",
+        "name": "Torkel Aadnøy",
+        "role": "",
+        "dept": "Customer Service",
+        "loc": "",
+        "avl": 100
+      },
+      {
+        "id": "16",
+        "name": "Valentyn Zvieriev",
+        "role": "",
+        "dept": "Infra",
+        "loc": "",
+        "avl": 100
+      }
+    ],
+    "systems": [
+      {
+        "id": "SYS001",
+        "name": "Ninja One",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS002",
+        "name": "Veeam VBR",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS003",
+        "name": "Fortigate",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS004",
+        "name": "Aruba",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS005",
+        "name": "Unifi",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS006",
+        "name": "Cisco",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS007",
+        "name": "Pfsense",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS008",
+        "name": "Microsoft 365 - Intune",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS009",
+        "name": "Microsoft 365 - Sharepoint",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS010",
+        "name": "Microsoft 365 - Teams",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS011",
+        "name": "Microsoft 365 - Defender",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS012",
+        "name": "Microsoft 365 - Purview",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS013",
+        "name": "Microsoft 365 - Entra ID",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS014",
+        "name": "Office",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS015",
+        "name": "OSX",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS016",
+        "name": "Android",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS017",
+        "name": "IOS",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS018",
+        "name": "Linux",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS019",
+        "name": "Proxmox",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS020",
+        "name": "Veeam VBO",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS021",
+        "name": "Nextcloud",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS022",
+        "name": "Windows 11",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS023",
+        "name": "Windows Server",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS024",
+        "name": "Active Directory",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS025",
+        "name": "Entra ID Sync",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS026",
+        "name": "Group Policy",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS027",
+        "name": "DNS",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS028",
+        "name": "Network VPN",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS029",
+        "name": "Network Client VPN",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS030",
+        "name": "Network Routing",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS031",
+        "name": "Network VLAN",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS032",
+        "name": "Network Design",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS033",
+        "name": "Freshservice",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS034",
+        "name": "PowerOffice",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS035",
+        "name": "Cyberday",
+        "env": "Prod",
+        "owner": "",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS036",
+        "name": "ALSO",
+        "owner": "4",
+        "env": "Prod",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS037",
+        "name": "IT Consultant Experience",
+        "owner": "2",
+        "env": "Prod",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      },
+      {
+        "id": "SYS038",
+        "name": "FullStackDev",
+        "owner": "5",
+        "env": "Prod",
+        "type": "System",
+        "sensitivity": "Internal",
+        "bizOwner": "",
+        "techOwner": ""
+      }
+    ],
+    "services": [
+      {
+        "id": "S001",
+        "name": "Managed Client",
+        "crit": 4,
+        "min": 2,
+        "pref": 4
+      },
+      {
+        "id": "S002",
+        "name": "Managed Backup",
+        "crit": 5,
+        "min": 2,
+        "pref": 4,
+        "owner": "2"
+      },
+      {
+        "id": "S003",
+        "name": "Managed 365",
+        "crit": 4,
+        "min": 2,
+        "pref": 4,
+        "owner": "6"
+      },
+      {
+        "id": "S004",
+        "name": "Network as a Service",
+        "crit": 4,
+        "min": 2,
+        "pref": 4,
+        "owner": "18"
+      },
+      {
+        "id": "S005",
+        "name": "Infrastructure as a Service",
+        "crit": null,
+        "min": null,
+        "pref": null
+      },
+      {
+        "id": "S006",
+        "name": "Application Management",
+        "crit": null,
+        "min": null,
+        "pref": null
+      },
+      {
+        "id": "S007",
+        "name": "License Management",
+        "crit": null,
+        "min": null,
+        "pref": null
+      },
+      {
+        "id": "S008",
+        "name": "IT Consultant",
+        "crit": null,
+        "min": null,
+        "pref": null
+      },
+      {
+        "id": "S009",
+        "name": "IT Advisor",
+        "crit": null,
+        "min": null,
+        "pref": null
+      },
+      {
+        "id": "S010",
+        "name": "Network Design",
+        "crit": null,
+        "min": null,
+        "pref": null
+      },
+      {
+        "id": "S011",
+        "name": "Device as a Service",
+        "crit": null,
+        "min": null,
+        "pref": null
+      },
+      {
+        "id": "S012",
+        "name": "Finance",
+        "crit": 4,
+        "min": 1,
+        "pref": 2,
+        "owner": "10"
+      },
+      {
+        "id": "S013",
+        "name": "ISMS",
+        "crit": 4,
+        "min": 1,
+        "pref": 2,
+        "owner": "2"
+      },
+      {
+        "id": "S014",
+        "name": "Managed Server",
+        "owner": "2",
+        "crit": 4,
+        "min": 2,
+        "pref": 4
+      },
+      {
+        "id": "S015",
+        "name": "Full-Stack dev",
+        "owner": "5",
+        "crit": 0,
+        "min": 1,
+        "pref": 2
+      },
+      {
+        "id": "S016",
+        "name": "M365 Consultant",
+        "owner": "2",
+        "crit": 1,
+        "min": 1,
+        "pref": 2
+      }
+    ],
+    "srs": [
+      {
+        "service": "S001",
+        "system": "SYS001",
+        "order": 1
+      },
+      {
+        "service": "S001",
+        "system": "SYS011",
+        "order": 2
+      },
+      {
+        "service": "S002",
+        "system": "SYS002",
+        "order": 1
+      },
+      {
+        "service": "S003",
+        "system": "SYS013",
+        "order": 1
+      },
+      {
+        "service": "S004",
+        "system": "SYS003",
+        "order": 1
+      },
+      {
+        "service": "S012",
+        "system": "SYS034",
+        "order": 1
+      },
+      {
+        "service": "S013",
+        "system": "SYS035",
+        "order": 1
+      },
+      {
+        "service": "S005",
+        "system": "SYS019",
+        "order": 1
+      },
+      {
+        "service": "S014",
+        "system": "SYS023",
+        "order": 1
+      },
+      {
+        "service": "S007",
+        "system": "SYS036",
+        "order": 1
+      },
+      {
+        "service": "S006",
+        "system": "SYS001",
+        "order": 2
+      },
+      {
+        "service": "S006",
+        "system": "SYS008",
+        "order": 1
+      },
+      {
+        "service": "S008",
+        "system": "SYS037",
+        "order": 1
+      },
+      {
+        "service": "S015",
+        "system": "SYS038",
+        "order": 1
+      },
+      {
+        "service": "S016",
+        "system": "SYS008",
+        "order": 1
+      },
+      {
+        "service": "S016",
+        "system": "SYS009",
+        "order": 2
+      },
+      {
+        "service": "S016",
+        "system": "SYS010",
+        "order": 3
+      },
+      {
+        "service": "S016",
+        "system": "SYS011",
+        "order": 4
+      },
+      {
+        "service": "S016",
+        "system": "SYS013",
+        "order": 5
+      }
+    ],
+    "qualifications": [
+      {
+        "emp": "15",
+        "sys": "SYS002",
+        "exp": 6,
+        "cert": "Non",
+        "years": 1,
+        "know": 4,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "8",
+        "sys": "SYS003",
+        "exp": 2,
+        "cert": "Associate",
+        "years": 1,
+        "know": 3,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "2",
+        "sys": "SYS002",
+        "exp": 12,
+        "cert": "None",
+        "years": 15,
+        "know": 5,
+        "updatedAt": "2026-01-28T23:23:49.220Z",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "3",
+        "sys": "SYS001",
+        "exp": 2,
+        "cert": "Associate",
+        "know": 4,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "15",
+        "sys": "SYS001",
+        "exp": 1,
+        "cert": "Associate",
+        "know": 4,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "6",
+        "sys": "SYS013",
+        "exp": 3,
+        "cert": "Associate",
+        "know": 3,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "3",
+        "sys": "SYS011",
+        "exp": 2,
+        "cert": "Non",
+        "know": 3,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "15",
+        "sys": "SYS011",
+        "exp": 1,
+        "cert": "Non",
+        "know": 1,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "10",
+        "sys": "SYS034",
+        "exp": 7,
+        "cert": "Expert",
+        "know": 5,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "2",
+        "sys": "SYS035",
+        "exp": 1,
+        "cert": "None",
+        "know": 3,
+        "updatedAt": "2026-01-28T23:23:49.220Z",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "11",
+        "sys": "SYS003",
+        "exp": 8,
+        "cert": "Associate",
+        "know": 3,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "11",
+        "sys": "SYS007",
+        "exp": 5,
+        "cert": "Associate",
+        "know": 3,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "8",
+        "sys": "SYS031",
+        "exp": 5,
+        "cert": "Advanced",
+        "know": 3,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "8",
+        "sys": "SYS004",
+        "exp": 5,
+        "cert": "Advanced",
+        "know": 3,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "8",
+        "sys": "SYS029",
+        "exp": 5,
+        "cert": "Advanced",
+        "know": 3,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "19",
+        "sys": "SYS032",
+        "exp": 5,
+        "cert": "Associate",
+        "know": 3,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "19",
+        "sys": "SYS003",
+        "exp": 3,
+        "cert": "Associate",
+        "know": 3,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "19",
+        "sys": "SYS006",
+        "exp": 5,
+        "cert": "Associate",
+        "know": 3,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "16",
+        "sys": "SYS030",
+        "exp": 2,
+        "cert": "Associate",
+        "know": 1,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "16",
+        "sys": "SYS007",
+        "exp": 2,
+        "cert": "Associate",
+        "know": 1,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "16",
+        "sys": "SYS003",
+        "exp": 2,
+        "cert": "Associate",
+        "know": 1,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "11",
+        "sys": "SYS006",
+        "exp": 8,
+        "cert": "Associate",
+        "know": 5,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "2",
+        "sys": "SYS023",
+        "exp": 15,
+        "cert": "Associate",
+        "know": 5,
+        "updatedAt": "2026-01-28T23:23:49.220Z",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": "2026-01-28"
+      },
+      {
+        "emp": "15",
+        "sys": "SYS023",
+        "exp": 3,
+        "cert": "Associate",
+        "know": 5,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "4",
+        "sys": "SYS036",
+        "exp": 5,
+        "cert": "Associate",
+        "know": 5,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "3",
+        "sys": "SYS008",
+        "exp": 5,
+        "cert": "Associate",
+        "know": 5,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "18",
+        "sys": "SYS037",
+        "exp": 15,
+        "cert": "Associate",
+        "know": 5,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "2",
+        "sys": "SYS037",
+        "exp": 15,
+        "cert": "Associate",
+        "know": 5,
+        "updatedAt": "2026-01-28T23:23:49.220Z",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "15",
+        "sys": "SYS037",
+        "exp": 3,
+        "cert": "Associate",
+        "know": 3,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "11",
+        "sys": "SYS005",
+        "exp": 4,
+        "cert": "Associate",
+        "know": 2,
+        "updatedAt": "",
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": ""
+      },
+      {
+        "emp": "4",
+        "sys": "SYS034",
+        "exp": 7,
+        "cert": "None",
+        "know": 3,
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": "",
+        "updatedAt": "2026-01-28T21:46:36.456Z"
+      },
+      {
+        "emp": "14",
+        "sys": "SYS035",
+        "exp": 8,
+        "cert": "None",
+        "know": 3,
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": "",
+        "updatedAt": "2026-01-28T21:47:08.819Z"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS034",
+        "exp": 8,
+        "cert": "None",
+        "know": 3,
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": "",
+        "updatedAt": "2026-01-28T23:23:49.220Z"
+      },
+      {
+        "emp": "5",
+        "sys": "SYS038",
+        "exp": 20,
+        "cert": "Expert",
+        "know": 5,
+        "entryDate": "2026-01-28",
+        "reviewDue": "2027-01-28",
+        "reviewedOn": "",
+        "updatedAt": "2026-01-28T22:43:20.236Z"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS011",
+        "exp": 5,
+        "cert": "None",
+        "know": 3,
+        "entryDate": "2026-01-29",
+        "reviewDue": "2027-01-29",
+        "reviewedOn": "",
+        "updatedAt": "2026-01-28T23:23:49.220Z"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS013",
+        "exp": 8,
+        "cert": "None",
+        "know": 5,
+        "entryDate": "2026-01-29",
+        "reviewDue": "2027-01-29",
+        "reviewedOn": "",
+        "updatedAt": "2026-01-28T23:23:49.220Z"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS008",
+        "exp": 6,
+        "cert": "None",
+        "know": 5,
+        "entryDate": "2026-01-29",
+        "reviewDue": "2027-01-29",
+        "reviewedOn": "",
+        "updatedAt": "2026-01-28T23:23:49.220Z"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS012",
+        "exp": 2,
+        "cert": "None",
+        "know": 1,
+        "entryDate": "2026-01-29",
+        "reviewDue": "2027-01-29",
+        "reviewedOn": "",
+        "updatedAt": "2026-01-28T23:23:49.220Z"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS009",
+        "exp": 6,
+        "cert": "None",
+        "know": 3,
+        "entryDate": "2026-01-29",
+        "reviewDue": "2027-01-29",
+        "reviewedOn": "",
+        "updatedAt": "2026-01-28T23:23:49.220Z"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS010",
+        "exp": 4,
+        "cert": "None",
+        "know": 2,
+        "entryDate": "2026-01-29",
+        "reviewDue": "2027-01-29",
+        "reviewedOn": "",
+        "updatedAt": "2026-01-28T23:23:49.220Z"
+      },
+      {
+        "emp": "2",
+        "sys": "Thomas Hemnes Alveskjær",
+        "exp": 0,
+        "cert": "None",
+        "know": 0,
+        "entryDate": "2026-01-29",
+        "reviewDue": "None",
+        "reviewedOn": "",
+        "updatedAt": "2026-01-28T23:23:49.220Z"
+      }
+    ],
+    "access": [
+      {
+        "emp": "2",
+        "sys": "SYS002",
+        "type": "Admin",
+        "requested": "Admin"
+      },
+      {
+        "emp": "10",
+        "sys": "SYS034",
+        "type": "Admin"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS035",
+        "type": "Admin",
+        "requested": "Admin"
+      },
+      {
+        "emp": "11",
+        "sys": "SYS004",
+        "type": "User"
+      },
+      {
+        "emp": "11",
+        "sys": "SYS003",
+        "type": "User"
+      },
+      {
+        "emp": "11",
+        "sys": "SYS007",
+        "type": "User"
+      },
+      {
+        "emp": "8",
+        "sys": "SYS031",
+        "type": "User"
+      },
+      {
+        "emp": "8",
+        "sys": "SYS004",
+        "type": "User"
+      },
+      {
+        "emp": "8",
+        "sys": "SYS029",
+        "type": "User"
+      },
+      {
+        "emp": "19",
+        "sys": "SYS006",
+        "type": "User"
+      },
+      {
+        "emp": "16",
+        "sys": "SYS007",
+        "type": "User"
+      },
+      {
+        "emp": "16",
+        "sys": "SYS003",
+        "type": "User"
+      },
+      {
+        "emp": "3",
+        "sys": "SYS006",
+        "type": "Admin"
+      },
+      {
+        "emp": "15",
+        "sys": "SYS002",
+        "type": "Admin"
+      },
+      {
+        "emp": "4",
+        "sys": "SYS036",
+        "type": "Admin"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS036",
+        "type": "Admin"
+      },
+      {
+        "emp": "3",
+        "sys": "SYS001",
+        "type": "Admin"
+      },
+      {
+        "emp": "3",
+        "sys": "SYS008",
+        "type": "Admin"
+      },
+      {
+        "emp": "6",
+        "sys": "SYS013",
+        "type": "Admin"
+      },
+      {
+        "emp": "5",
+        "sys": "SYS038",
+        "type": "Admin"
+      },
+      {
+        "emp": "4",
+        "sys": "SYS034",
+        "type": "Admin"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS034",
+        "type": "Admin",
+        "requested": "Admin"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS023",
+        "type": "",
+        "requested": "Admin"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS037",
+        "type": "",
+        "requested": "Admin"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS011",
+        "type": "",
+        "requested": "Admin"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS013",
+        "type": "",
+        "requested": "Admin"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS008",
+        "type": "",
+        "requested": "Admin"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS012",
+        "type": "",
+        "requested": "Admin"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS009",
+        "type": "",
+        "requested": "Admin"
+      },
+      {
+        "emp": "2",
+        "sys": "SYS010",
+        "type": "",
+        "requested": "Admin"
+      }
+    ],
+    "actions": [
+      {
+        "id": "A19c06e72f817c04",
+        "service": "S001",
+        "title": "Mitigate coverage risk (train / add backup resource)",
+        "owner": "",
+        "due": "2026-02-28",
+        "status": "Planned",
+        "notes": "Risk RED: qualified 0 < min 2"
+      },
+      {
+        "id": "A19c06e72f818f30",
+        "service": "S003",
+        "title": "Mitigate coverage risk (train / add backup resource)",
+        "owner": "",
+        "due": "2026-02-28",
+        "status": "Planned",
+        "notes": "Risk RED: qualified 1 < min 2"
+      },
+      {
+        "id": "A19c06e72f8170fe",
+        "service": "S004",
+        "title": "Mitigate SPOF (increase redundancy)",
+        "owner": "18",
+        "due": "2026-02-28",
+        "status": "Planned",
+        "notes": "SPOF: fully capable = 1"
+      },
+      {
+        "id": "A19c06e72f81a49e",
+        "service": "S015",
+        "title": "Mitigate SPOF (increase redundancy)",
+        "owner": "5",
+        "due": "2026-02-28",
+        "status": "Planned",
+        "notes": "SPOF: fully capable = 1"
+      }
+    ]
+  },
+  "config": {
+    "scoring": {
+      "exp_max": 8,
+      "cert_levels": [
+        {
+          "name": "None",
+          "points": 0
+        },
+        {
+          "name": "Associate",
+          "points": 1
+        },
+        {
+          "name": "Advanced",
+          "points": 3
+        },
+        {
+          "name": "Expert",
+          "points": 5
+        }
+      ],
+      "know_max": 5
+    },
+    "thresholds": {
+      "qualified": 6,
+      "fully": 8,
+      "expert": 10,
+      "almost_min": 4,
+      "almost_max": 5,
+      "train_min": 1,
+      "train_max": 3
+    },
+    "availability": {
+      "fullcap_min": 70
+    },
+    "criticality": {
+      "highlight_min": 3,
+      "under_def": "min"
+    },
+    "maturity": {
+      "weights": {
+        "competence": 0.4,
+        "access": 0.35,
+        "redundancy": 0.25,
+        "training": 0
+      },
+      "thresholds": {
+        "green": 0.8,
+        "yellow": 0.6
+      }
+    },
+    "srs": {
+      "max_required": 8
+    }
+  },
+  "exportedAt": "2026-01-28T23:28:15.832Z"
+}
