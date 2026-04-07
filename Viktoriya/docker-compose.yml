@@ -1,6 +1,6 @@
 services:
   db:
-    image: mariadb:11
+    image: mariadb:11.4
     container_name: eprovider_db
     restart: unless-stopped
     env_file:
@@ -14,12 +14,29 @@ services:
       - "3307:3306"
     volumes:
       - mariadb_data:/var/lib/mysql
-      - ./db/init:/docker-entrypoint-initdb.d
+      - ./db/init:/docker-entrypoint-initdb.d:ro
     healthcheck:
-      test: ["CMD", "mariadb", "-h", "localhost", "-u", "${MARIADB_USER}", "-p${MARIADB_PASSWORD}", "-e", "SELECT 1"]
+      test: ["CMD-SHELL", "mariadb-admin ping -h localhost -u$$MARIADB_USER -p$$MARIADB_PASSWORD --silent"]
       interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 10
+      start_period: 20s
+    networks:
+      - eprovider_net
+
+  adminer:
+    image: adminer:4
+    container_name: eprovider_adminer
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      ADMINER_DEFAULT_SERVER: db
+    networks:
+      - eprovider_net
 
   backend:
     build:
@@ -27,33 +44,41 @@ services:
       dockerfile: Dockerfile
     container_name: eprovider_api
     restart: unless-stopped
-    ports:
-      - "${BACKEND_PORT:-3000}:3000"
     env_file:
       - .env
     environment:
       MARIADB_HOST: db
+      MARIADB_PORT: 3306
       MARIADB_USER: ${MARIADB_USER}
       MARIADB_PASSWORD: ${MARIADB_PASSWORD}
       MARIADB_DATABASE: ${MARIADB_DATABASE}
       BACKEND_PORT: 3000
+      NODE_ENV: production
+      CORS_ORIGIN: http://localhost
+    ports:
+      - "3000:3000"
     depends_on:
       db:
         condition: service_healthy
-    volumes:
-      - ./backend:/app
-      - /app/node_modules
+    networks:
+      - eprovider_net
 
   frontend:
-    build: ./frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     container_name: eprovider_frontend
     restart: unless-stopped
     ports:
       - "80:80"
     depends_on:
       - backend
-    environment:
-      - REACT_APP_API_URL=http://backend:3000/api
+    networks:
+      - eprovider_net
 
 volumes:
   mariadb_data:
+
+networks:
+  eprovider_net:
+    driver: bridge
